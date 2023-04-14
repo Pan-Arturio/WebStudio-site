@@ -1,3 +1,17 @@
+/* Commands */
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+}
+
 /* Studio */
 
 /* Header */
@@ -8,7 +22,6 @@
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
-    text-decoration: none;
 }
 
 .header-logo2 {
@@ -17,7 +30,6 @@
     font-size: 26px;
     line-height: 1.38;
     color: #000000;
-    text-decoration: none;
 }
 
 .header-title {
@@ -25,7 +37,6 @@
     font-size: 36px;
     line-height: 1.17;
     color: #212121;
-    text-decoration: none;
 }
 
 .header-link {
@@ -33,11 +44,9 @@
     font-size: 14px;
     line-height: 1.14;
     color: #212121;
-    text-decoration: none;
 }
 
 .header-link:hover {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -49,7 +58,6 @@
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
-    text-decoration: none;
 }
 
 .header-post:hover {
@@ -57,15 +65,14 @@
     font-size: 14px;
     line-height: 1.14;
     color: #2196F3;
-    text-decoration: none;
 }
+
 
 .header-telephone {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
-    text-decoration: none;
 }
 
 .header-telephone:hover {
@@ -73,7 +80,6 @@
     font-size: 14px;
     line-height: 1.14;
     color: #2196F3;
-    text-decoration: none;
 }
 
 /* Main */
@@ -93,6 +99,7 @@
     font-size: 16px;
     line-height: 1.87;
     color: #FFFFFF;
+    background: #2196F3;
 }
 
 /* About us  */
@@ -136,7 +143,7 @@
     color: #212121;
 }
 
-.team-proffesion {
+.team-profession {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -151,7 +158,6 @@
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
-    text-decoration: none;
 }
 
 .footer-logo2 {   
@@ -160,15 +166,14 @@
     font-size: 26px;
     line-height: 1.19;
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 .footer-address {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 .footer-post {
@@ -176,7 +181,6 @@
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
-    text-decoration: none;
 }
 
 .footer-telephone {
@@ -184,7 +188,6 @@
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
-    text-decoration: none;
 }
 
 /* Portfolio */
@@ -197,7 +200,6 @@
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
-    text-decoration: none;
 }
 
 .header-logo2 {
@@ -206,7 +208,6 @@
     font-size: 26px;
     line-height: 1.38;
     color: #000000;
-    text-decoration: none;
 }
 
 .header-title {
@@ -214,7 +215,6 @@
     font-size: 36px;
     line-height: 1.17;
     color: #212121;
-    text-decoration: none;
 }
 
 
@@ -223,23 +223,28 @@
     font-size: 14px;
     line-height: 1.14;
     color: #212121;
-    text-decoration: none;
 }
 
 .header-post {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: #2196F3;
-    text-decoration: none;
+    color: #757575;
 }
+
+.header-post:hover {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
+}
+
 
 .header-telephone {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
-    text-decoration: none;
 }
 
 /* Main */
@@ -251,6 +256,7 @@
     font-size: 16px;
     line-height: 1.62;
     color: #212121;
+    background: #F5F4FA;
 }
 
 .tabs-button:hover {
@@ -258,6 +264,7 @@
     font-size: 16px;
     line-height: 1.62;
     color: #FFFFFF;
+    background: #2196F3;
 }
 
 /* Projects  */
@@ -284,7 +291,6 @@
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
-    text-decoration: none;
 }
 
 .footer-logo2 {   
@@ -293,23 +299,22 @@
     font-size: 26px;
     line-height: 1.19;
     color: #FFFFFF;
-    text-decoration: none;
 }
 
 .footer-address {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: #FFFFFF;
-    text-decoration: none;
 }
+
 
 .footer-post {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
-    text-decoration: none;
 }
 
 .footer-telephone {
@@ -317,15 +322,5 @@
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
-    text-decoration: none;
 }
 
-/* Commands */
-
-ul {
-    list-style: none;
-}
-
-body {
-    font-family: 'Roboto';
-}
